@@ -1,0 +1,17 @@
+{
+  "name": "cms",
+  "description": "The abide.community CMS source code, powered by Netlify CMS",
+  "private": true,
+  "version": "0.0.0-not-published",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development parcel src/index.html -p 4000",
+    "build": "NODE_ENV=production parcel build src/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "prettier": "^1.15.2",
+    "typescript": "^3.1.6"
+  }
+}
