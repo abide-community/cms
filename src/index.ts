@@ -82,11 +82,14 @@ function Info(sites) {
   }
 }
 
+const backend =
+  process.env.NODE_ENV === 'production'
+    ? { name: 'github', repo: 'abide-community/content' }
+    : { name: 'test-repo' }
+
 window.initCMS({
   config: {
-    backend: {
-      name: 'test-repo',
-    },
+    backend,
     publish_mode: 'simple',
     media_folder: 'static/assets',
     collections: sites
