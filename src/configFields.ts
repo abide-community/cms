@@ -8,6 +8,7 @@ export const contactInformation = {
   label: 'Contact Information',
   hint: 'The contact information for this organization',
   widget: 'object',
+  required: false,
   fields: [
     {
       name: 'address',
