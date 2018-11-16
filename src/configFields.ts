@@ -1,3 +1,8 @@
+export const name = {
+  name: 'name',
+  hint: 'The name of this organization',
+}
+
 export const contactInformation = {
   name: 'contactInformation',
   label: 'Contact Information',

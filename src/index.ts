@@ -3,6 +3,7 @@ import {
   contactInformation,
   donorboxName,
   featureImage,
+  name,
   teamMembers,
   timeline,
 } from './configFields'
@@ -26,6 +27,7 @@ window.initCMS({
           name: site,
           file: `sites/${site}/config.yml`,
           fields: [
+            name,
             contactInformation,
             donorboxName,
             featureImage,
