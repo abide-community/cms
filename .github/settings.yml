@@ -1,0 +1,5 @@
+repository:
+  name: cms
+  description: The abide.community CMS source code, powered by Netlify CMS
+  has_wiki: false
+  allow_merge_commit: false
